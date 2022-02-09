@@ -3,13 +3,13 @@ body {
 }
 
 header {
-    background: #BBBBBB;
+    background: #914802;
     padding: 30px 0;
 }
 
 .box {
+    display: flex;
     position: relative;
-    width: 940px;
     margin: 0 auto;
 }
 
@@ -19,9 +19,10 @@ nav {
     right: 0;
 }
 
-nav li {
+li {
     display: inline;
     margin: 0 0 0 15px;
+    padding-top: 300%;
 }
 
 nav a {
