@@ -10,13 +10,13 @@ body {
     width: 100%;
     top: 0%;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
 }
 
 .istanbul-logo{
     
     display:flex;
-    margin: 35px;
-    margin-left: 300px;
+    margin: 1.5% 1.5%;
 }
 
 
@@ -34,10 +34,10 @@ body {
 }
 
 ul {
-    right: 15%;
-    top: 45px;
+    right: 5%;
+    top: 5%;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 200%;
     display: inline-block;
     position: fixed;
     word-spacing: 75px
@@ -59,7 +59,45 @@ ul {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 200px;
-    margin-bottom: 50px;
+    margin-top: 250px;
+    margin-bottom: 70px;
 }
 
+.pic{
+    width:40%;
+    height:40%;
+    display:inline-block;
+    margin: 5% 15%;
+    }
+
+  .text{
+    width:90%;
+    height:30%;
+    opacity:0;
+    transition: .5s ease;
+    overflow: hidden;
+    margin-top: -40%;
+  }
+
+.img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: all 0.8s ease;
+    transition: all 0.8s ease;
+    opacity: 1;
+}
+
+
+  .pic:hover .text
+  {
+    opacity:1;
+    text-align:justify;
+    color:#000000;
+    font-size:20px;
+    font-weight:700;
+    margin-left: 160%;
+    margin-top: -32%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
