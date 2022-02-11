@@ -111,10 +111,6 @@ ul {
     transform: translate(-50%, -50%);
   }
 
-nav a:hover {
-    color: #000000;
-    text-decoration: underline;
-}
 
 .map {
     padding: 5px;
@@ -156,6 +152,3 @@ nav a:hover {
     width: 200px;
 }
 
-.video {
-    padding: ;
-}

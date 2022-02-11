@@ -106,10 +106,7 @@ ul {
     transform: translate(-50%, -50%);
   }
 
-nav a:hover {
-    color: #000000;
-    text-decoration: underline;
-}
+
 
 .map {
     padding: 5px;
@@ -158,4 +155,18 @@ nav a:hover {
     left: 45%;
     position: absolute;
     text-align: justify;
+}
+.image-table:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: all 0.8s ease;
+    transition: all 0.8s ease;
+    opacity: 1;
+}
+.image-table2:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: all 0.8s ease;
+    transition: all 0.8s ease;
+    opacity: 1;
 }
