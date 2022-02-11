@@ -1,0 +1,162 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background: #BBBBBB;
+    padding: 30px 0;
+}
+
+main {
+    margin-top: 100px;
+}
+
+p {
+    padding: 30px;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+.box {
+    background: linear-gradient(-45deg, #8E35D8, #D835D1, #D8357F, #D83C35, #D88E35);
+    background-size: 500% 40%;
+    animation: gradient 15s ease infinite;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.istanbul-logo{
+    
+    display:flex;
+    margin: 1.5% 1.5%;
+}
+
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+ul {
+    right: 5%;
+    top: 5%;
+    font-weight: bold;
+    font-size: 200%;
+    display: inline-block;
+    position: fixed;
+    word-spacing: 75px
+}
+.links {
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.links:hover {
+    border-top: 4px solid #FFFFFF;
+    border-bottom: 4px solid #FFFFFF;
+    padding: 6px 0;
+  }
+.bckgroundimg {
+    background-attachment: scroll;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;
+    margin-bottom: 70px;
+}
+.pic{
+    width:40%;
+    height:40%;
+    display:inline-block;
+    margin: 5% 15%;
+    }
+.text{
+    width:90%;
+    height:30%;
+    opacity:0;
+    transition: .5s ease;
+    overflow: hidden;
+    margin-top: -40%;
+  }
+.img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: all 0.8s ease;
+    transition: all 0.8s ease;
+    opacity: 1;
+}
+.pic:hover .text
+  {
+    opacity:1;
+    text-align:justify;
+    color: black;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size:20px;
+    font-weight:400;
+    margin-left: 160%;
+    margin-top: -32%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+nav a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.map {
+    padding: 5px;
+}
+
+.curiosity {
+    padding: 100px;
+}
+
+.table-curiosity {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title-table {
+    text-align: center;
+    height: 50px;
+}
+
+.image-pt-table {
+    height: 50px;
+}
+
+.image-table {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.info-table {
+    text-align: center;
+    height: 50px;
+}
+
+.title-table th {
+    width: 200px;
+}
+
+.video {
+    padding: ;
+}
