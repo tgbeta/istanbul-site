@@ -68,6 +68,7 @@ ul {
     border-bottom: 4px solid #FFFFFF;
     padding: 6px 0;
   }
+
 .bckgroundimg {
     background-attachment: scroll;
     display: block;
@@ -89,13 +90,7 @@ ul {
     transition: .5s ease;
     overflow: hidden;
     margin-top: -40%;
-  }
-.img:hover {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-    -webkit-transition: all 0.8s ease;
-    transition: all 0.8s ease;
-    opacity: 1;
+  
 }
 .pic:hover .text
   {
@@ -131,24 +126,20 @@ nav a:hover {
 }
 
 
-
-
 .image-table {
     width: 800px;
     height: 500px;
-    top: 50%;
+    margin-top: 20%;
     padding-right: 15px;
    
     
 }
-.image-table {
+.image-table2 {
     width: 800px;
     height: 500px;
-    top: 50%;
+    margin-top: 20%;
     padding-left: 15px;
 }
-
-
 
 
 .info-table {
@@ -156,4 +147,15 @@ nav a:hover {
     height: 50px;
 }
 
+.p1 {
+    right: 45%;
+    position: absolute;
+    text-align: justify;
 
+}
+
+.p2 {
+    left: 45%;
+    position: absolute;
+    text-align: justify;
+}
